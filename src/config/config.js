@@ -1,0 +1,12 @@
+module.exports={
+    port:3000,
+    hostName:'localhost',
+    paths:process.cwd(),
+    compress:/\.(html|htm|js|css)$/,
+    Cache:{
+        Expires:true,
+        CahceControl:true,
+        Modified:true,
+        Etag:true
+    }
+}
